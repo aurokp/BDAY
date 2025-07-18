@@ -1,0 +1,88 @@
+/* Fade transition for page switch */
+.fade-in {
+  animation: fadeInPage 0.8s cubic-bezier(0.4,0,0.2,1);
+}
+
+@keyframes fadeInPage {
+  from {
+    opacity: 0;
+    filter: blur(8px);
+    transform: scale(0.98);
+  }
+  to {
+    opacity: 1;
+    filter: blur(0);
+    transform: scale(1);
+  }
+}
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  background: #fff;
+  border-radius: 24px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.08);
+  padding: 2rem;
+}
+.greeting {
+  font-size: 2.5rem;
+  color: #ff69b4;
+  margin-bottom: 1rem;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  text-shadow: 1px 2px 8px #fff0f5;
+}
+.emoji-animations {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 1.5rem;
+}
+.emoji {
+  font-size: 3rem;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+}
+.cake {
+  animation-name: bounceCake;
+}
+.balloon {
+  animation-name: floatBalloon;
+}
+.gift {
+  animation-name: shakeGift;
+}
+@keyframes bounceCake {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
+@keyframes floatBalloon {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-30px) scale(1.1); }
+}
+@keyframes shakeGift {
+  0%, 100% { transform: rotate(0deg); }
+  25% { transform: rotate(-10deg); }
+  75% { transform: rotate(10deg); }
+}
+.subtitle {
+  font-size: 1.5rem;
+  color: #6a1b9a;
+  margin-bottom: 2rem;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+.start-btn {
+  font-size: 2rem;
+  padding: 1rem 3rem;
+  background: linear-gradient(90deg, #ffb347 0%, #ff69b4 100%);
+  color: white;
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+  box-shadow: 0 4px 16px rgba(255,105,180,0.2);
+  transition: background 0.3s, transform 0.2s;
+}
+.start-btn:hover {
+  background: linear-gradient(90deg, #ff69b4 0%, #ffb347 100%);
+  transform: scale(1.08);
+}

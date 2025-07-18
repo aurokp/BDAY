@@ -1,0 +1,267 @@
+/* Responsive wish message screen */
+.wish-message-responsive {
+  text-align: center;
+  margin-top: 2rem;
+  background: rgba(255,255,255,0.7);
+  border-radius: 2.5rem;
+  padding: 4rem 3.5rem;
+  display: block;
+  box-shadow: 0 4px 24px rgba(255,105,180,0.13);
+  max-width: 98vw;
+  width: 900px;
+  min-width: 340px;
+  min-height: 420px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 600px) {
+  .wish-message-responsive {
+    width: 98vw !important;
+    min-width: 0 !important;
+    max-width: 100vw !important;
+    padding: 1.2rem 0.5rem !important;
+    font-size: 1rem !important;
+    min-height: 220px !important;
+    border-radius: 1.2rem !important;
+  }
+  .wish-message-responsive .animated-birthday,
+  .wish-message-responsive .animated-special {
+    font-size: 1.1rem !important;
+  }
+  .wish-message-responsive .message-btn {
+    font-size: 1.1rem !important;
+    padding: 0.6rem 1.2rem !important;
+  }
+  .wish-message-responsive div[style*='font-size: 4rem'] {
+    font-size: 2.2rem !important;
+    margin-top: 1rem !important;
+  }
+}
+/* Responsive candle and flame size for mobile */
+@media (max-width: 600px) {
+  .candle-svg {
+    width: 10px !important;
+    height: 28px !important;
+  }
+  .flame-svg {
+    width: 18px !important;
+    height: 24px !important;
+  }
+  .candle-body-responsive {
+    top: 24px !important;
+  }
+  .candle-flame-responsive {
+    top: 6px !important;
+  }
+}
+/* Fade transition for page switch (for Surprise page too) */
+.fade-in {
+  animation: fadeInPage 0.8s cubic-bezier(0.4,0,0.2,1);
+}
+
+@keyframes fadeInPage {
+  from {
+    opacity: 0;
+    filter: blur(8px);
+    transform: scale(0.98);
+  }
+  to {
+    opacity: 1;
+    filter: blur(0);
+    transform: scale(1);
+  }
+}
+/* Responsive cake image and message container */
+.cake-responsive-container {
+  position: relative;
+  margin-bottom: 1rem;
+  width: 100vw;
+  max-width: 100vw;
+  height: 260px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: visible;
+}
+.cake-responsive-img {
+  width: 100vw;
+  max-width: 100vw;
+  height: 240px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+@media (max-width: 600px) {
+  .cake-responsive-container {
+    height: 140px;
+  }
+  .cake-responsive-img {
+    height: 120px;
+  }
+  .wish-container .message-btn {
+    font-size: 1.1rem !important;
+    padding: 0.6rem 1.2rem !important;
+  }
+  .wish-container > div {
+    width: 98vw !important;
+    min-width: 0 !important;
+    max-width: 100vw !important;
+    padding: 1.2rem 0.5rem !important;
+    font-size: 1rem !important;
+  }
+  .animated-birthday, .animated-special {
+    font-size: 1.1rem !important;
+  }
+}
+/* Fade transition for page switch */
+.fade-in {
+  animation: fadeInPage 0.8s cubic-bezier(0.4,0,0.2,1);
+
+@keyframes fadeInPage {
+  from {
+    opacity: 0;
+    filter: blur(8px);
+    transform: scale(0.98);
+  }
+  to {
+    opacity: 1;
+    filter: blur(0);
+    transform: scale(1);
+  }
+}
+.balloon4 {
+  left: 30vw;
+  animation-delay: 1s;
+  color: #ff8c00;
+}
+.balloon1 {
+  left: 10vw;
+  animation-delay: 0s;
+  color: #ff69b4;
+}
+.balloon2 {
+  left: 25vw;
+  animation-delay: 1s;
+  color: #ffd700;
+}
+.balloon3 {
+  left: 40vw;
+  animation-delay: 2s;
+  color: #00bcd4;
+}
+.balloon4 {
+  left: 55vw;
+  animation-delay: 3s;
+  color: #ff8c00;
+}
+.balloon5 {
+  left: 70vw;
+  animation-delay: 4s;
+  color: #8e44ad;
+}
+.balloon6 {
+  left: 85vw;
+  animation-delay: 5s;
+  color: #00c853;
+}
+}
+.balloon2 {
+  left: 50vw;
+  animation-delay: 2s;
+  color: #ffd700;
+}
+.balloon3 {
+  left: 80vw;
+  animation-delay: 4s;
+  color: #00bcd4;
+}
+@keyframes floatBalloon {
+  0% {
+    bottom: -60px;
+    opacity: 0.7;
+    transform: translateX(0) scale(1);
+  }
+  20% {
+    opacity: 1;
+    transform: translateX(-10px) scale(1.1);
+  }
+  40% {
+    transform: translateX(10px) scale(1.05);
+  }
+  60% {
+    transform: translateX(-10px) scale(1.1);
+  }
+  80% {
+    opacity: 1;
+    transform: translateX(10px) scale(1.05);
+  }
+  100% {
+    bottom: 110vh;
+    opacity: 0;
+    transform: translateX(0) scale(1);
+  }
+}
+.balloon-area {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: 1;
+}
+.balloon {
+  position: absolute;
+  font-size: 2.5rem;
+  opacity: 0.85;
+  animation: floatBalloon 7s linear infinite;
+}
+.balloon1 {
+  left: 15vw;
+  animation-delay: 0s;
+  color: #ff69b4;
+}
+.balloon2 {
+  left: 50vw;
+  animation-delay: 2s;
+  color: #ffd700;
+}
+.balloon3 {
+  left: 80vw;
+  animation-delay: 4s;
+  color: #00bcd4;
+}
+ .balloon4 {
+  left: 65vw;
+  animation-delay: 6s;
+  color: #a259ff;
+}
+@keyframes floatBalloon {
+  0% {
+    bottom: -60px;
+    opacity: 0.7;
+    transform: translateX(0) scale(1);
+  }
+  20% {
+    opacity: 1;
+    transform: translateX(-10px) scale(1.1);
+  }
+  40% {
+    transform: translateX(10px) scale(1.05);
+  }
+  60% {
+    transform: translateX(-10px) scale(1.1);
+  }
+  80% {
+    opacity: 1;
+    transform: translateX(10px) scale(1.05);
+  }
+  100% {
+    bottom: 110vh;
+    opacity: 0;
+    transform: translateX(0) scale(1);
+  }
+}
