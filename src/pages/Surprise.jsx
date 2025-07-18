@@ -38,13 +38,22 @@ kahibu kathaheba 😂<br/><br/><br/>
 Ama friendship eternity jain chalithau.<br/>
 As we say BFF for lyf.<br/>
 
+
+
 <br/><br/>
 Au gote katha<br/>
 Reels check Kariba bhulibuni hela😅 <br/><br/><br/>
 
+Meet you soon kayi saare baatein karenge.<br/>
+
+
 Above all,<br/>
 aaj tera din hai yaaar!<br/>
+have an amazing birthday coz you truly deserve it.<br/><br/>
+
 Enjoy karna full on masti😎🤟
+<br/><br/>
+Love you yaar 😊❤️<br/>
 </p>
     </div>
   );

@@ -17,7 +17,7 @@ const Home = () => {
 
   return (
     <div className={`home-container ${fadeClass}`}>
-      <h1 className="greeting">Hey [Name]!</h1>
+      <h1 className="greeting">Hey SP!</h1>
       <h2 className="subtitle">Ready for the surprise?</h2>
       <button className="start-btn" onClick={handleStart}>
         Start
