@@ -56,7 +56,7 @@ Finally of my age now huh
 Kemiti laguchi? mote kahibu hela 😂
 Hope Ei barsa gata barsa thu bhi bahut bhala jau to paain
 
-I wanna say thanks for being the most amazing 
+I wanna say thanks for being the most amazing, sweet 
 and caring bestie of mine.
 
 A day has hardly passed without us talking,
