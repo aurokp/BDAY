@@ -54,7 +54,7 @@ const Wish = () => {
       flexDirection: 'column',
       alignItems: 'center',
       justifyContent: 'center',
-      background: '#fff',
+      background: 'linear-gradient(135deg, #ffe0f7 0%, #fff6e0 100%)',
       position: 'relative',
       overflow: 'hidden'
     }}>
