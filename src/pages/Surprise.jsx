@@ -44,7 +44,7 @@ As we say BFF for lyf.<br/>
 Au gote katha<br/>
 Reels check Kariba bhulibuni hela😅 <br/><br/><br/>
 
-Meet you soon kayi saare baatein karenge.<br/>
+Meet you soon kayi saare baatein karenge.<br/><br />
 
 
 Above all,<br/>
